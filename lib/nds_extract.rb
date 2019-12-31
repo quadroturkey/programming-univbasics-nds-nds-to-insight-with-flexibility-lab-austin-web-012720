@@ -105,7 +105,8 @@ director_array = []
 index = 0 
 while index < source.length do 
   director_name = source[index][:name]
-  movie_info = 
+  director_info = source[index]
+  
 
 #binding.pry
 end
