@@ -111,7 +111,7 @@ while index < source.length do
   index += 1 
 end
 director_array
-binding.pry
+#binding.pry
 end
 
 
