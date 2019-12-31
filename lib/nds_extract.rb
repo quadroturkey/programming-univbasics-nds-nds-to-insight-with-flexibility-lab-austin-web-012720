@@ -107,7 +107,7 @@ while index < source.length do
   director_name = source[index][:name]
   director_info = source[index]
   director_movies = source[index][:movies]
-  director_array << director_movies
+  director_array << movies_with_director_key(director_name,director_movies)
   index += 1 
 end
 director_array
