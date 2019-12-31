@@ -107,8 +107,10 @@ while index < source.length do
   director_name = source[index][:name]
   director_info = source[index]
   director_movies = source[index][:movies]
+  director_array << director_movies
   index += 1 
 end
+director_array
 binding.pry
 end
 
