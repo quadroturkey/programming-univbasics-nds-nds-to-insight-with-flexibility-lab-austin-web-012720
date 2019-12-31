@@ -106,7 +106,7 @@ index = 0
 while index < source.length do 
   director_name = source[index][:name]
   director_info = source[index]
-  director_movies 
+  director_movies = source[index][:movies]
 
 #binding.pry
 end
